@@ -282,6 +282,13 @@ add_action('wp_footer', function ($callback){
                         <input type="submit" id="lit-submit" value="Verificar meu NFT">
                     </form>
                 </section>
+                <p style="
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    text-align: center;
+                    right: 0;
+                ">Developed by <a href="https://arod.studio/" target="_blank">arod.studio</a></p>
             </div>
         ';
     }else{   
