@@ -34,7 +34,7 @@ define('LIT_MENU_PAGE_CONTENT', plugin_dir_path(__FILE__) . "/setup/menu-page.ph
 define('LIT_MENU_GROUP', 'lit-settings');
 
 // -- define assets
-define('LIT_LOGO', plugin_dir_url(__FILE__) . 'assets/lit-logo.png');
+define('LIT_LOGO', plugin_dir_url(__FILE__) . 'assets/foto-site-links.png');
 
 include(plugin_dir_path(__FILE__) . "/setup/Setup.php");
 
@@ -279,7 +279,7 @@ add_action('wp_footer', function ($callback){
                     <div id="lit-msg"></div>
                     <form action="'.htmlspecialchars(lwlgf_request_headers()->url).'" method="POST" id="lit-form">
                         <input type="hidden" id="jwt" name="jwt" value="">
-                        <input type="submit" id="lit-submit" value="Unlock Page">
+                        <input type="submit" id="lit-submit" value="Verificar meu NFT">
                     </form>
                 </section>
             </div>
