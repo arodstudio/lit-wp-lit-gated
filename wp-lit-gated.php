@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Token / NFT / Blockchain Page Gating
+ * Plugin Name: Token / NFT / Blockchain Page Gating customized arod.studio
  * Plugin URI: https://litprotocol.com
  * Description: Token-gate your post/page using <a href="https://litprotocol.com">Lit-Protocol</a>
  * Version: 0.0.5
@@ -28,7 +28,7 @@ define('LIT_JWT_TEST_TOKEN', "eyJhbGciOiJCTFMxMi0zODEiLCJ0eXAiOiJKV1QifQ.eyJpc3M
 
 // -- define admin menu page
 define('LIT_ICON', plugin_dir_url(__FILE__) . 'assets/favicon-16x16.png');
-define('LIT_MENU_NAME', 'Lit-Gated');
+define('LIT_MENU_NAME', 'Lit-Gated by arod.studio');
 define('LIT_MENU_SLUG', 'lit-gated');
 define('LIT_MENU_PAGE_CONTENT', plugin_dir_path(__FILE__) . "/setup/menu-page.php");
 define('LIT_MENU_GROUP', 'lit-settings');
