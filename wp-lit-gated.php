@@ -275,7 +275,7 @@ add_action('wp_footer', function ($callback){
             <div class="lit-gated">
                 <section>
                     <img src="'.LIT_LOGO.'" alt="Lit Protocol" />
-                    <h4>This page is Lit-Gated</h4>
+                    <h4>Você precisa ter o NFT do <a href="https://opensea.io/collection/viver-de-renda-com-cripto-pass-zulu-martimiano" target="_blank">Viver de Renda com Cripto Pass</a> para acessar essa página.</h4>
                     <div id="lit-msg"></div>
                     <form action="'.htmlspecialchars(lwlgf_request_headers()->url).'" method="POST" id="lit-form">
                         <input type="hidden" id="jwt" name="jwt" value="">
